@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Introduction](#introduction)  
 - [Features](#features)  
-- [Usage](#usage)  
 - [Modules](#modules)  
 - [Customization](#customization)  
 - [Controls](#controls)    
@@ -26,25 +25,6 @@ This project is a simulation suite developed in C++ for academic and experimenta
 - **Modular Codebase**: Easy to add or switch simulation modes via key commands.
 - **SFML Integration**: Leverages SFML for rendering, event handling, and real-time performance.
 - **Performance Logging**: Track particle count and simulation updates in real time.
-
----
-
-## Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/tanyavasilkiv21/Diploma.git
-   ```
-
-2. Build using any C++17-compatible compiler and link with SFML. Example using g++:
-   ```bash
-   g++ -std=c++17 main.cpp -o SimulationApp -lsfml-graphics -lsfml-window -lsfml-system
-   ```
-
-3. Run the application:
-   ```bash
-   ./SimulationApp
-   ```
 
 ---
 
